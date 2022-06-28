@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-size: 16px;
+  font-weight: 700;
+}
+div{
+  display: inline-block;
+  float: left;
+}
+body{
+  background-color: #e6eff6;
+  font-size: 16px;
+  font-family: 'Karla';
+}
+.container{
+  width: 636px;
+  height: 475px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container header{
+  height: 216px;
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+header h1{
+  color: hsl(179, 62%, 43%);
+  padding: 45px 0 30px 40px;
+}
+header span{
+  color: hsl(71, 73%, 54%);
+  padding: 0 0 0 40px;
+}
+header p{
+  color : hsl(204, 43%, 93%);
+}
+header p:nth-child(3){
+  padding: 20px 0 0 40px;
+}
+header p:nth-child(4){
+  padding: 10px 0 0 40px;
+}
+.sub{
+  height: 258px;
+  width: 318px;
+  background-color: hsl(179, 61%, 44%);
+  border-radius: 0 0 0 5px;
+}
+.sub h1{
+  color: #fff;
+  padding: 45px 0 28px 40px;
+}
+.sub .price{
+  color: #fff;
+  font-size: 25px;
+  padding: 0 0 0 40px;
+}
+.sub span{
+  color: #fff;
+  padding-left: 10px;
+  color: hsl(204, 43%, 93%);
+  font-size: 12px;
+}
+.sub p{
+  color: #fff;
+  padding: 20px 0 0 40px;
+}
+.sub button{
+  width: 235px;
+  height: 45px;
+  background-color: hsl(71, 73%, 54%);
+  border: 1px solid hsl(99, 67%, 68%);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 35px 0 0 40px;
+  position: relative;
+}
+.our{
+  width: 318px;
+  height: 258px;
+  background-color: hsl(179, 47%, 52%);
+  border-radius: 0 0 5px 0;
+}
+.our h1{
+  color: #fff;
+  padding: 45px 0 25px 40px;
+}
+.our ul{
+  padding: 0 0 0 40px;
+}
+.our ul li{
+  list-style: none;
+  color: hsl(204, 43%, 93%);
+  font-size: 14px;
+  padding: 0 0 5px 0;
+}
